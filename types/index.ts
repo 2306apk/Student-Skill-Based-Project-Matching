@@ -166,3 +166,4 @@ export interface AnalyticsOverview {
   averageMatchScore: number;
   activityCount: number;
 }
+

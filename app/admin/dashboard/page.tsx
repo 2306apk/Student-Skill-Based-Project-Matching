@@ -55,7 +55,7 @@ export default function AdminDashboardOverview() {
           </div>
           <h2 className="text-xl font-bold text-slate-900 mt-0.5">System Overview & Diagnostics</h2>
           <p className="text-xs text-slate-500 mt-1">
-            Student Skill–Project Matching System • Database-connected operational dashboard
+            Student Skill–Project Matching • Operational Dashboard
           </p>
         </div>
 
@@ -227,3 +227,4 @@ export default function AdminDashboardOverview() {
     </div>
   );
 }
+

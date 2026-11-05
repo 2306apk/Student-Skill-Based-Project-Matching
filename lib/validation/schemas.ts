@@ -61,3 +61,4 @@ export const selectCandidateSchema = z.object({
   project_id: z.coerce.number().int().positive('Project ID required'),
   role: z.string().min(2, 'Role must be at least 2 characters').max(100),
 });
+

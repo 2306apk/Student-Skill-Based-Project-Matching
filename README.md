@@ -264,3 +264,4 @@ npm run build
 1. **Decoupled Dual-Database Consistency:** MySQL transactions guarantee ACID atomicity for core relational entities. MongoDB activity logging is decoupled; if MongoDB is temporarily unreachable, the core MySQL operation still succeeds and logs a console warning, preventing audit downtime from blocking user transactions.
 2. **Match Score Origin:** The `MATCH_RESULT` table stores evaluated algorithmic match scores. The frontend faithfully displays these stored relational values rather than simulating client-side match calculation.
 3. **Database Trigger Execution:** Because triggers enforce constraints on `INSERT` and `UPDATE`, client-side forms surface trigger exceptions as user-friendly notifications (e.g. "Application rejected: project has reached active-member capacity").
+

@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Student Skill–Project Matching System',
-  description: 'University DBMS Level 3 Capstone Application',
+  title: 'Student Skill–Project Matching',
+  description: 'Student Skill–Project Matching System',
 };
 
 export default function RootLayout({
@@ -17,3 +17,4 @@ export default function RootLayout({
     </html>
   );
 }
+

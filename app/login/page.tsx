@@ -52,9 +52,6 @@ export default function LoginPage() {
         <h2 className="text-xl font-bold tracking-tight text-slate-900">
           Student Skill–Project Matching
         </h2>
-        <p className="mt-1 text-xs text-slate-500">
-          DBMS Level 3 Capstone Application • Sign in to your portal
-        </p>
       </div>
 
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
@@ -158,11 +155,8 @@ export default function LoginPage() {
             </div>
           </div>
         </div>
-
-        <div className="mt-4 text-center text-xs text-slate-400">
-          PES University • Department of Computer Science & Engineering
-        </div>
       </div>
     </div>
   );
 }
+

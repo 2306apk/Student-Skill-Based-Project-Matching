@@ -49,3 +49,4 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: formatDbError(err) }, { status: 400 });
   }
 }
+

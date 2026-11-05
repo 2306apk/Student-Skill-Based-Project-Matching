@@ -38,3 +38,4 @@ export async function verifySessionToken(token: string): Promise<SessionUser | n
 }
 
 export { COOKIE_NAME };
+

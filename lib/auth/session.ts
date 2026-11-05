@@ -47,3 +47,4 @@ export function verifyStudentAccess(user: SessionUser, targetStudentId: number):
   if (user.role === 'ADMIN') return true;
   return user.studentId === targetStudentId;
 }
+

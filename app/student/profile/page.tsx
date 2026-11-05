@@ -39,7 +39,7 @@ export default function StudentProfilePage() {
   return (
     <div className="max-w-4xl space-y-6">
       <div>
-        <h2 className="text-lg font-bold text-slate-900">Student Academic Profile</h2>
+        <h2 className="text-lg font-bold text-slate-900">Student Profile</h2>
         <p className="text-xs text-slate-500">
           Source of truth: MySQL <code className="text-slate-700 bg-slate-100 px-1 py-0.5 rounded">STUDENT</code> & <code className="text-slate-700 bg-slate-100 px-1 py-0.5 rounded">DEPARTMENT</code> tables
         </p>
@@ -71,7 +71,7 @@ export default function StudentProfilePage() {
             <div className="flex items-start space-x-3">
               <Award className="w-4 h-4 text-slate-400 mt-0.5" />
               <div>
-                <div className="text-xs font-medium text-slate-500">Current Academic Year</div>
+                <div className="text-xs font-medium text-slate-500">Current Year</div>
                 <div className="text-sm font-semibold text-slate-800">Year {student.year} of 4</div>
               </div>
             </div>
@@ -125,3 +125,4 @@ export default function StudentProfilePage() {
     </div>
   );
 }
+

@@ -79,3 +79,4 @@ export function formatDbError(err: any): string {
   }
   return err.message || 'Database operation failed.';
 }
+

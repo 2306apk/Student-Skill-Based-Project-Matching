@@ -249,7 +249,7 @@ export default function AdminMatchResultsPage() {
       >
         <form onSubmit={handleExecuteSelection} className="space-y-4">
           <div className="p-3 bg-amber-50/60 border border-amber-200 rounded text-xs text-amber-900 leading-relaxed">
-            <span className="font-bold">DBMS Concept 4 (Transactions):</span> This directly executes{' '}
+            <span className="font-bold">Atomic Transaction:</span> This directly executes{' '}
             <code className="bg-amber-100 font-mono px-1 py-0.5 rounded">CALL Select_Student_For_Project(?, ?, ?)</code>.
             It performs atomic execution with row locking (<code className="bg-amber-100 font-mono px-1 py-0.5 rounded">FOR UPDATE</code>),
             validates application status, updates APPLICATION table to &apos;Selected&apos;, and inserts into PROJECT_MEMBER table.

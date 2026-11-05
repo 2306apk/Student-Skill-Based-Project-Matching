@@ -19,3 +19,4 @@ CREATE TABLE IF NOT EXISTS APP_USER (
     INDEX idx_app_user_email (email),
     INDEX idx_app_user_student (student_id)
 ) ENGINE=InnoDB CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+

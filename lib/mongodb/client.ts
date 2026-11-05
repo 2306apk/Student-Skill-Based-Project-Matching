@@ -160,3 +160,4 @@ export async function getStudentActivity(studentId: number, limit = 20) {
     .limit(limit)
     .toArray();
 }
+

@@ -34,9 +34,8 @@ export function Navbar({ user }: NavbarProps) {
         </div>
         <div>
           <h1 className="text-sm font-semibold text-slate-900 leading-tight">
-            Student Skill–Project Matching System
+            Student Skill–Project Matching
           </h1>
-          <p className="text-xs text-slate-500">DBMS Level 3 Capstone Application</p>
         </div>
       </div>
 
@@ -67,3 +66,4 @@ export function Navbar({ user }: NavbarProps) {
     </header>
   );
 }
+

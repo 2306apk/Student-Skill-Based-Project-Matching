@@ -81,7 +81,7 @@ export default function StudentBrowseProjectsPage() {
     <div className="space-y-6">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <h2 className="text-lg font-bold text-slate-900">Browse Open Capstone Projects</h2>
+          <h2 className="text-lg font-bold text-slate-900">Browse Open Projects</h2>
           <p className="text-xs text-slate-500">
             Real-time capacity calculated with <code className="text-slate-700 bg-slate-100 px-1 py-0.5 rounded">LEFT JOIN</code> & <code className="text-slate-700 bg-slate-100 px-1 py-0.5 rounded">COUNT()</code>
           </p>
@@ -246,3 +246,4 @@ export default function StudentBrowseProjectsPage() {
     </div>
   );
 }
+

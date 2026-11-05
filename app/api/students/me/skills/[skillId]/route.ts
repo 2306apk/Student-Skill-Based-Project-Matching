@@ -86,3 +86,4 @@ export async function DELETE(
     return NextResponse.json({ error: formatDbError(err) }, { status: 400 });
   }
 }
+
