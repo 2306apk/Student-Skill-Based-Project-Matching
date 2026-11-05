@@ -1,6 +1,10 @@
 import mysql from 'mysql2/promise';
 import bcrypt from 'bcryptjs';
 
+try {
+  process.loadEnvFile?.();
+} catch {}
+
 async function seedUsers() {
   console.log('--- Seeding Authentication Users with Hashed Credentials ---');
   const connection = await mysql.createConnection({

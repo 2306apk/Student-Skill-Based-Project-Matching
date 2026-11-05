@@ -1,6 +1,11 @@
 import mysql from 'mysql2/promise';
 import { MongoClient } from 'mongodb';
 
+try {
+  // Load local .env without printing any credentials
+  process.loadEnvFile?.();
+} catch {}
+
 async function testConnections() {
   console.log('==================================================');
   console.log('STUDENT SKILL–PROJECT MATCHING SYSTEM: DB TEST');

@@ -2,6 +2,10 @@ import mysql from 'mysql2/promise';
 import fs from 'fs';
 import path from 'path';
 
+try {
+  process.loadEnvFile?.();
+} catch {}
+
 async function runMigration() {
   console.log('--- Running Additive Migration for APP_USER ---');
   const connection = await mysql.createConnection({
