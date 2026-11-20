@@ -571,9 +571,7 @@ DELIMITER ;
 -- Speed up the lookups used by the triggers, views and procedures.
 -- ================================================================
 
-CREATE INDEX idx_application_project_status ON APPLICATION (project_id, status);
-CREATE INDEX idx_member_project_status      ON PROJECT_MEMBER (project_id, member_status);
-CREATE INDEX idx_match_project_score        ON MATCH_RESULT (project_id, match_score);
+
 
 -- ================================================================
 -- PART E: VERIFICATION / DEMONSTRATION QUERIES
